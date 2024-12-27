@@ -122,6 +122,44 @@
               </div>
           </fieldset>
           
+          <fieldset class="adult-info">
+            <legend>Informações do responsável</legend>
+            <div class="input-wrapper">
+              <label for="adult-name">Nome do responsável</label>
+              <input
+              id="adult-name"
+              type="text"
+              name="adult-name"
+              placeholder="Insira o nome do responsável">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="adult-phone">Telefone </label>
+              <input
+              id="adult-phone"
+              type="tel"
+              name="adult-phone"
+              placeholder="(10) 9 8765-4321">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="adult-mail">E-mail</label>
+              <input
+              id="adult-mail"
+              type="email"
+              name="adult-mail"
+              required>
+              <div class="error">
+                <img src="/assests/alert-circle.svg" alt="">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+
+              
+          </fieldset>
+
+
         </form>
       </div>
     </main>
