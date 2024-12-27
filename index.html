@@ -20,6 +20,50 @@
         </div>
         <h1>Formulário de matrícula</h1>
         <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+
+        <form>
+          <fieldset class="child-info">
+            <legend>Informações da Criança</legend>
+
+            <div class="input-wrapper">
+            <label for="fullname">Nome Completo</label>
+            <input
+            id="fullname"
+            type="text"
+            placeholder="Insira nome da criança">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth ">Data de Nascimento</label>
+              <input
+              id="birth"
+              type="date"
+              lang="pt_BR" >
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro não responder</option>
+              </select>
+            </div>
+
+            <div class="textarear-wrapper">
+              <label for="medical-info">Informações Médicas</label>
+              <textarea name="medical-info" id="medical-info" cols="30" rows="10" placeholder="Insira condição médica da criança"></textarea>
+            </div>
+
+            <div class="droparea-wrapper">
+              <input type="file" name="birth-file" id="birth-file">
+              <img src="/assests/cloud-upload.svg" alt="">
+              <p>Clique Aqui para <br /> Selecionar os Arquivos</p>
+            </div>
+
+          </fieldset>
+
+        </form>
       </div>
     </main>
 
@@ -34,6 +78,8 @@
         <img src="assests/Illustration.svg" alt="">
       </div>
     </aside>
+
+
   </div>
 </body>
 </html>
